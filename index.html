@@ -7,13 +7,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styke.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-fluid">
         <div class="gambar">
-            <h2>SPYWARE SMEDA</h2>
+            <h2 class="hidden">SPYWARE SMEDA</h2>
         </div> 
+        <div class="content">
+            <div class="card hidden">
+                <img src="1x1-3.jpg" alt="">
+                <h5>ini teks coba</h5>
+            </div>
+            <div class="card hidden">
+                <img src="1x1-3.jpg" alt="">
+                <h5>ini teks cobaa</h5>
+            </div>
+        </div>
     </div> 
+    
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElement = document.querySelectorAll('.hidden');
+hiddenElement.forEach((el) => observer.observe(el));
+    </script>
 </body>
 </html>
