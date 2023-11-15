@@ -26,7 +26,7 @@ h2 {
 /* scrollbar */
 ::-webkit-scrollbar {
     width : 0.6vw;
-    height: 0.3vw;
+    height: 0.4vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -68,7 +68,7 @@ body {
 }
 
 .content {
-    padding   : 1em 2em;
+    padding   : 1em 3em;
     text-align: center;
 }
 
@@ -118,8 +118,6 @@ body {
     padding   : 0.5em;
 }
 
-
-
 .gallery-card img {
     width: 220px;
 }
@@ -148,7 +146,7 @@ body {
     width     : 100%;
     display   : flex;
     overflow-x: scroll;
-    gap       : 2vmin;
+    gap       : 2.3%;
     padding   : 1em 0;
 }
 
@@ -156,7 +154,7 @@ body {
     overflow        : hidden;
     background-color: gray;
     border-radius   : 20px;
-    min-width       : 30%;
+    min-width       : 23.25%;
     height          : auto;
 }
 
