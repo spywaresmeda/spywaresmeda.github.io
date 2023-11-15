@@ -70,6 +70,7 @@ body {
 .content {
     padding   : 1em 0.5em;
     text-align: center;
+    overflow  : hidden;
 }
 
 .bg-secondary {
@@ -204,7 +205,7 @@ body {
 #s4:checked~#slide3,
 #s5:checked~#slide4 {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
-    transform : translate3d(-25%, 0, -100px);
+    transform : translate3d(-50%, 0, -150px);
 }
 
 #s1:checked~#slide1,
@@ -222,7 +223,7 @@ body {
 #s4:checked~#slide5,
 #s5:checked~#slide1 {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
-    transform : translate3d(25%, 0, -100px);
+    transform : translate3d(50%, 0, -150px);
 }
 
 #s1:checked~#slide3,
