@@ -146,7 +146,7 @@ body {
     width     : 100%;
     display   : flex;
     overflow-x: scroll;
-    gap       : 2.3%;
+    gap       : 2%;
     padding   : 1em 0;
 }
 
@@ -154,7 +154,7 @@ body {
     overflow        : hidden;
     background-color: gray;
     border-radius   : 20px;
-    min-width       : 23.25%;
+    min-width       : 32%;
     height          : auto;
 }
 
@@ -260,4 +260,16 @@ body {
 
 #slide5 {
     background-image: url(img/4x3/4x3-5.jpg);
+}
+
+@media screen and (max-width: 758px) {
+    /* member card */
+
+    .all-card {
+        gap: 3%;
+    }
+
+    .card {
+        min-width: 47%;
+    }
 }
