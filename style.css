@@ -135,7 +135,7 @@ body {
 .member-card {
     background-color: #333A48;
     border-radius   : 30px;
-    padding         : 2em 1.5em;
+    padding         : 1.5em 1.5vmax;
     overflow        : hidden;
 }
 
