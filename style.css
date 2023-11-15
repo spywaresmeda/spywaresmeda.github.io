@@ -15,6 +15,14 @@ h6 {
     color                  : transparent;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
     width : 0.6vw;
@@ -69,7 +77,7 @@ body {
 }
 
 .bg-secondary {
-    background-color: #555;
+    background-color: #333A;
     border-radius   : 20px;
     padding         : 0.5em 1em;
     width           : max-content;
