@@ -26,7 +26,7 @@ h2 {
 /* scrollbar */
 ::-webkit-scrollbar {
     width : 0.6vw;
-    height: 0;
+    height: 0.3vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -68,12 +68,8 @@ body {
 }
 
 .content {
-    padding: 3em 0 0;
-}
-
-.intro {
+    padding   : 1em 2em;
     text-align: center;
-    margin    : 0 3em;
 }
 
 .bg-secondary {
@@ -89,17 +85,18 @@ body {
     align-items     : center;
     align-content   : center;
     background-color: #323232a7;
-    padding         : 2vw 0.7em;
+    padding         : 0.5rem 1em;
     border-radius   : 12px;
-    justify-content : space-around;
     color           : white;
-    margin          : 2em 0;
+    margin          : 1em 5vw 2em;
     line-height     : 2.3rem;
 }
 
 .social h2 {
-    color    : #cfcfcf;
-    font-size: 5vmin;
+    color     : #cfcfcf;
+    font-size : 5vmin;
+    text-align: left;
+    margin    : 0 1em;
 }
 
 .social :first-child {
@@ -109,8 +106,9 @@ body {
 }
 
 .social :nth-child(3) {
-    height    : 20px;
-    object-fit: cover;
+    height     : 20px;
+    object-fit : cover;
+    margin-left: auto;
 }
 
 .gallery-card {
@@ -124,6 +122,48 @@ body {
 
 .gallery-card img {
     width: 220px;
+}
+
+/* slider-scroll */
+.member {
+    margin         : 2em auto;
+    display        : flex;
+    justify-content: center;
+    padding        : 1em 2em;
+    max-width      : fit-content;
+}
+
+.member-card {
+    background-color: #333A48;
+    border-radius   : 50px;
+    padding         : 2em 1.5em;
+    overflow        : hidden;
+}
+
+.member-card h1 {
+    font-size: 2.5vmax;
+}
+
+.all-card {
+    width     : 100%;
+    display   : flex;
+    overflow-x: scroll;
+    gap       : 20px;
+    padding   : 1em 0;
+}
+
+.card {
+    overflow        : hidden;
+    background-color: gray;
+    border-radius   : 30px;
+    min-width       : 150px;
+    height          : auto;
+}
+
+.card img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
 }
 
 /* slider */
