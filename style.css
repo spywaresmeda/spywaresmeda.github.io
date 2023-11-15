@@ -154,7 +154,7 @@ body {
     overflow        : hidden;
     background-color: gray;
     border-radius   : 20px;
-    min-width       : 32%;
+    min-width       : 24.5%;
     height          : auto;
 }
 
@@ -266,10 +266,10 @@ body {
     /* member card */
 
     .all-card {
-        gap: 3%;
+        gap: 2%;
     }
 
     .card {
-        min-width: 47%;
+        min-width: 32%;
     }
 }
