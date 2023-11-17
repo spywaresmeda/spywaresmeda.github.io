@@ -1,7 +1,7 @@
 * {
     margin     : 0;
     padding    : 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Pop', sans-serif;
 }
 
 h1,
@@ -72,8 +72,8 @@ h2 {
 
 /* style */
 body {
-    margin-bottom: 2em;
-    background   : #000;
+    margin-bottom   : 2em;
+    background-color: black;
 }
 
 .container-fluid {
@@ -81,26 +81,75 @@ body {
 }
 
 .content {
+    padding   : 1em 0.5em;
     text-align: center;
     overflow  : hidden;
 }
 
-.hero {
-    margin             : 0;
-    padding            : 0;
-    height             : 35vh;
-    background-image   : linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(50, 95, 76, 0.478), rgba(50, 95, 76)), url('img/spyware-hero.jpg');
-    background-size    : contain;
-    background-repeat  : no-repeat;
-    background-position: center;
+.bg-secondary {
+    background-color: #333A;
+    border-radius   : 20px;
+    padding         : 0.5em 1em;
+    width           : max-content;
+    margin          : 0.5em auto;
+}
+
+.social {
+    display         : flex;
+    align-items     : center;
+    align-content   : center;
+    background-color: #323232a7;
+    padding         : 0.5rem 1em;
+    border-radius   : 12px;
+    color           : white;
+    margin          : 1em 5vw 2em;
+    line-height     : 2.3rem;
+}
+
+.social h2 {
+    color     : #cfcfcf;
+    font-size : 5vmin;
+    text-align: left;
+    margin    : 0 1em;
+}
+
+.social :first-child {
+    height    : 40px;
+    width     : 40px;
+    object-fit: cover;
+}
+
+.social :nth-child(3) {
+    height     : 20px;
+    object-fit : cover;
+    margin-left: auto;
+}
+
+.gallery-card {
+    display   : flex;
+    column-gap: 1.5rem;
+    overflow  : auto;
+    padding   : 0.5em;
+}
+
+.gallery-card img {
+    width: 220px;
 }
 
 /* slider-scroll */
+.member {
+    margin         : 2em auto;
+    display        : flex;
+    justify-content: center;
+    padding        : 1em 0;
+    max-width      : fit-content;
+}
+
 .member-card {
-    display       : flex;
-    background    : linear-gradient(to top, rgba(53, 49, 53, 0.8), rgba(49, 49, 48, 31));
-    flex-direction: column;
-    align-items   : center;
+    background-color: #333A48;
+    border-radius   : 30px;
+    padding         : 1.5em 1.5vmax;
+    overflow        : hidden;
 }
 
 .member-card h1 {
@@ -146,10 +195,6 @@ body {
 /* slider */
 [type=radio] {
     display: none;
-}
-
-.slider {
-    margin-top: -8vh;
 }
 
 #slider {
@@ -246,17 +291,8 @@ body {
 }
 
 @media screen and (max-width: 758px) {
-
-    /* hero */
-    .hero {
-        height: 20vh;
-    }
-
-    .slider {
-        margin-top: -5vh;
-    }
-
     /* member card */
+
     .all-card {
         gap: 2%;
     }

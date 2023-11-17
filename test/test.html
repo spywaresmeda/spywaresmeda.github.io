@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro and Outro</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #intro-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .intro-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0; /* Mulai dengan opacity 0 */
+            animation: fadeIn 2s forwards; /* Animasi fade-in selama 2 detik */
+            cursor: pointer;
+        }
+
+        #outro-container {
+            display: none; /* Intro ditampilkan, outro disembunyikan */
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #000; /* Ganti warna latar belakang outro sesuai kebutuhan */
+            color: #fff; /* Ganti warna teks pada outro sesuai kebutuhan */
+            text-align: center;
+            padding-top: 20%;
+        }
+
+        .outro-text {
+            animation: fadeOut 2s forwards; /* Animasi fade-out selama 2 detik */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="intro-container">
+        <img src="../img/spyware.jpg" alt="Intro Image" class="intro-image" id="clickable-image">
+    </div>
+
+    <div id="outro-container"> 
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var clickableImage = document.getElementById('clickable-image');
+            var outroContainer = document.getElementById('outro-container');
+
+            clickableImage.addEventListener('click', function() {
+                clickableImage.style.opacity = 0;
+
+                setTimeout(function() {
+                    document.getElementById('intro-container').style.display = 'none';
+                    outroContainer.style.display = 'block';
+                }, 2000); // Menunggu sampai animasi fade-out selesai sebelum menampilkan outro
+            });
+        });
+    </script>
+</body>
+</html>

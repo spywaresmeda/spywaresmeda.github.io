@@ -1,185 +1,333 @@
 {
-    "siswa": [
-      {
-        "NAMA": "ADITYA KUSUMA RIZKI",
-        "AGAMA": "ISLAM",
-        "TTL": "19/10/2006",
-        "NISN": "0069834028"
-      },
-      {
-        "NAMA": "AHMAD TAUFIK HIDAYATULLAH",
-        "TTL": "22/08/2006",
-        "NISN": "0069797425"
-      },
-      {
-        "NAMA": "AHMAD YUSUF",
-        "TTL": "17/07/2006",
-        "NISN": "0067543678"
-      },
-      {
-        "NAMA": "ANANDIKA FADHIL APRILISHAN",
-        "TTL": "02/04/2007",
-        "NISN": "0079203168"
-      },
-      {
-        "NAMA": "AYU ANJANI",
-        "TTL": "17/08/2006",
-        "NISN": "0069520058"
-      },
-      {
-        "NAMA": "AZIS SATYA AGNI",
-        "TTL": "28/12/2006",
-        "NISN": "0065428172"
-      },
-      {
-        "NAMA": "BILY ARYA SAPUTRA",
-        "TTL": "01/07/2006",
-        "NISN": "0063341682"
-      },
-      {
-        "NAMA": "CAHAYA CINTA ILAHI",
-        "TTL": "05/09/2006",
-        "NISN": "0073961534"
-      },
-      {
-        "NAMA": "CHANDRA KUSUMA",
-        "TTL": "11/12/2006",
-        "NISN": "0052514508"
-      },
-      {
-        "NAMA": "DHARMA CHANDRA VIRIYA",
-        "TTL": "19/04/2007",
-        "NISN": "0079997337"
-      },
-      {
-        "NAMA": "DIRWA SANAMI ISLAM",
-        "TTL": "06/09/2006",
-        "NISN": "0062316771"
-      },
-      {
-        "NAMA": "FRIMANTAMA ADYA FAHREZY",
-        "TTL": "06/04/2007",
-        "NISN": "0075049227"
-      },
-      {
-        "NAMA": "GHAITSA SHOFA ADELYA",
-        "TTL": "02/10/2006",
-        "NISN": "0061938896"
-      },
-      {
-        "NAMA": "GOFAHROZI FIRDAUS",
-        "TTL": "12/11/2006",
-        "NISN": "0063378152"
-      },
-      {
-        "NAMA": "HENDI WIJAYA",
-        "TTL": "16/01/2006",
-        "NISN": "0066322240"
-      },
-      {
-        "NAMA": "KETUT AGUS ANGGA WIDIARSA",
-        "TTL": "04/09/2006",
-        "NISN": "0062152830"
-      },
-      {
-        "NAMA": "I MADE ARUDEA DENIAFINDER GOTAMA",
-        "TTL": "17/01/2006",
-        "NISN": "0062429869"
-      },
-      {
-        "NAMA": "I PUTU EKANTARA WIDI ARTHA",
-        "TTL": "05/09/2006",
-        "NISN": "0061994560"
-      },
-      {
-        "NAMA": "I WAYAN AGUS DIBYA",
-        "TTL": "16/08/2006",
-        "NISN": "0065502021"
-      },
-      {
-        "NAMA": "JUHANDA AZRIL KAMAL",
-        "TTL": "26/01/2007",
-        "NISN": "0078473819"
-      },
-      {
-        "NAMA": "LULUK AULIA",
-        "TTL": "21/04/2006",
-        "NISN": "0068681827"
-      },
-      {
-        "NAMA": "MALIKA FAHIMA ADALIA",
-        "TTL": "16/02/2007",
-        "NISN": "0076102151"
-      },
-      {
-        "NAMA": "MAZNI",
-        "TTL": "22/06/2007",
-        "NISN": "0072543812"
-      },
-      {
-        "NAMA": "MUHAMMAD DIKI SETIAWAN",
-        "TTL": "26/01/2007",
-        "NISN": "0075411094"
-      },
-      {
-        "NAMA": "MUHAMMAD FAREL AMRULLOH",
-        "TTL": "07/05/2007",
-        "NISN": "0074965594"
-      },
-      {
-        "NAMA": "MUHAMMAD RIZQI MAULANA",
-        "TTL": "15/04/2006",
-        "NISN": "3066554523"
-      },
-      {
-        "NAMA": "NENDEN DARA CAHYANI",
-        "TTL": "24/12/2006",
-        "NISN": "0065322096"
-      },
-      {
-        "NAMA": "NI PUTU LORA DEAS SUBRATHA",
-        "TTL": "19/08/2006",
-        "NISN": "0067578269"
-      },
-      {
-        "NAMA": "NURIFANSYAH",
-        "TTL": "20/09/2006",
-        "NISN": "0069945300"
-      },
-      {
-        "NAMA": "PUTU DEVA SANJAYA PUTRA WISWA",
-        "TTL": "15/04/2006",
-        "NISN": "0067214447"
-      },
-      {
-        "NAMA": "RAFI AHMAD",
-        "TTL": "16/07/2006",
-        "NISN": "0062035219"
-      },
-      {
-        "NAMA": "SANDIA MELANI",
-        "TTL": "29/05/2006",
-        "NISN": "0067748498"
-      },
-      {
-        "NAMA": "SEPRILYA CALLYSTA RINCE TUNGGA",
-        "TTL": "11/04/2007",
-        "NISN": "0078592415"
-      },
-      {
-        "NAMA": "SRI RAHMAWATI",
-        "TTL": "15/10/2006",
-        "NISN": "0064650111"
-      },
-      {
-        "NAMA": "VIRLYA ZULIANI",
-        "TTL": "08/01/2007",
-        "NISN": "0074937886"
-      },
-      {
-        "NAMA": "YAZKA TAURIHAN MAUDUDI",
-        "TTL": "16/12/2006",
-        "NISN": "0061273775"
-      }
-    ]
-  }
+  "siswa": [
+    {
+      "NO": 1,
+      "NAMA": "ADITYA KUSUMA RIZKI",
+      "AGAMA": "ISLAM",
+      "TTL": "19/10/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0069834028",
+      "INSTAGRAM": "aditya_.123"
+    },
+    {
+      "NO": 2,
+      "NAMA": "AHMAD TAUFIK HIDAYATULLAH",
+      "AGAMA": "ISLAM",
+      "TTL": "22/08/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0069797425"
+    },
+    {
+      "NO": 3,
+      "NAMA": "AHMAD YUSUF",
+      "AGAMA": "ISLAM",
+      "TTL": "17/07/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0067543678"
+    },
+    {
+      "NO": 4,
+      "NAMA": "ANANDIKA FADHIL APRILISHAN",
+      "AGAMA": "ISLAM",
+      "TTL": "02/04/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0079203168",
+      "INSTAGRAM": "anandika_f"
+    },
+    {
+      "NO": 5,
+      "NAMA": "AYU ANJANI",
+      "AGAMA": "ISLAM",
+      "TTL": "17/08/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0069520058"
+    },
+    {
+      "NO": 6,
+      "NAMA": "AZIS SATYA AGNI",
+      "AGAMA": "ISLAM",
+      "TTL": "28/12/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0065428172",
+      "INSTAGRAM": "azis.pdf"
+    },
+    {
+      "NO": 7,
+      "NAMA": "BILY ARYA SAPUTRA",
+      "AGAMA": "HINDU",
+      "TTL": "01/07/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0063341682",
+      "INSTAGRAM": "bily.kj",
+      "QUOTES": "Tidur adalah kunci sukses"
+    },
+    {
+      "NO": 8,
+      "NAMA": "CAHAYA CINTA ILAHI",
+      "AGAMA": "ISLAM",
+      "TTL": "05/09/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0073961534",
+      "INSTAGRAM": "cutie.nta",
+      "QUOTES": "Memotong rambut anak laki-laki secara serampangan di depan banyak orang termasuk pada pembullyan. Jika ia merasa malu, bisa jadi ia meyimpan dendam. Hal semacam ini cara disiplin yang aneh. Padahal kalau mau rapi, sekalian aja datangkan tukang cukur gratis."
+    },
+    {
+      "NO": 9,
+      "NAMA": "CHANDRA KUSUMA",
+      "AGAMA": "ISLAM",
+      "TTL": "11/12/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0052514508",
+      "INSTAGRAM": "_chnnd",
+      "QUOTES": "dont focus on how to solve, focus on what to solve"
+    },
+    {
+      "NO": 10,
+      "NAMA": "DHARMA CHANDRA VIRIYA",
+      "AGAMA": "BUDDHA",
+      "TTL": "19/04/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0079997337",
+      "INSTAGRAM": "dcviriya",
+      "QUOTES": "learning is harder than creating"
+    },
+    {
+      "NO": 11,
+      "NAMA": "DIRWA SANAMI ISLAM",
+      "AGAMA": "ISLAM",
+      "TTL": "06/09/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0062316771",
+      "INSTAGRAM": "dirwatsanami"
+    },
+    {
+      "NO": 12,
+      "NAMA": "FRIMANTAMA ADYA FAHREZY",
+      "AGAMA": "ISLAM",
+      "TTL": "06/04/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0075049227",
+      "QUOTES": " siapapun boleh menjadi apa saja, kecuali tuhan"
+    },
+    {
+      "NO": 13,
+      "NAMA": "GHAITSA SHOFA ADELYA",
+      "AGAMA": "ISLAM",
+      "TTL": "02/10/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0061938896",
+      "INSTAGRAM": "ghaitsadelyaa",
+      "QUOTES": "once the person is nice to me again, i forget the bad times easily"
+    },
+    {
+      "NO": 14,
+      "NAMA": "GOFAHROZI FIRDAUS",
+      "AGAMA": "ISLAM",
+      "TTL": "12/11/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0063378152",
+      "INSTAGRAM": "gfhrozy_",
+      "QUOTES": "Bahkan jika aku punya sejuta pilihan 'I always will choose you'"
+    },
+    {
+      "NO": 15,
+      "NAMA": "HENDI WIJAYA",
+      "AGAMA": "ISLAM",
+      "TTL": "16/01/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0066322240",
+      "INSTAGRAM": "e.hen_16206"
+    },
+    {
+      "NO": 16,
+      "NAMA": "I KETUT AGUS ANGGA WIDIARSA",
+      "AGAMA": "HINDU",
+      "TTL": "04/09/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0062152830",
+      "INSTAGRAM": "angga_widiarsa"
+    },
+    {
+      "NO": 17,
+      "NAMA": "I MADE ARUDEA DENIAFINDER GOTAMA",
+      "AGAMA": "HINDU",
+      "TTL": "17/01/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0062429869",
+      "INSTAGRAM": "finder_gotama"
+    },
+    {
+      "NO": 18,
+      "NAMA": "I PUTU EKANTARA WIDI ARTHA",
+      "AGAMA": "HINDU",
+      "TTL": "05/09/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0061994560",
+      "INSTAGRAM": "tarawidiartha_"
+    },
+    {
+      "NO": 19,
+      "NAMA": "I WAYAN AGUS DIBYA",
+      "AGAMA": "HINDU",
+      "TTL": "16/08/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0065502021"
+    },
+    {
+      "NO": 20,
+      "NAMA": "JUHANDA AZRIL KAMAL",
+      "AGAMA": "ISLAM",
+      "TTL": "26/01/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0078473819",
+      "INSTAGRAM": "juhndaa"
+    },
+    {
+      "NO": 21,
+      "NAMA": "LULUK AULIA",
+      "AGAMA": "ISLAM",
+      "TTL": "21/04/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0068681827"
+    },
+    {
+      "NO": 22,
+      "NAMA": "MALIKA FAHIMA ADALIA",
+      "AGAMA": "ISLAM",
+      "TTL": "16/02/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0076102151",
+      "INSTAGRAM": "llalalikaa"
+    },
+    {
+      "NO": 23,
+      "NAMA": "MAZNI",
+      "AGAMA": "ISLAM",
+      "TTL": "22/06/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0072543812",
+      "INSTAGRAM": "mazni_3"
+    },
+    {
+      "NO": 24,
+      "NAMA": "MUHAMMAD DIKI SETIAWAN",
+      "AGAMA": "ISLAM",
+      "TTL": "26/01/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0075411094",
+      "INSTAGRAM": "dikisetiawan1494"
+    },
+    {
+      "NO": 25,
+      "NAMA": "MUHAMMAD FAREL AMRULLOH",
+      "AGAMA": "ISLAM",
+      "TTL": "07/05/2007",
+      "GENDER": "Laki-laki",
+      "NISN": "0074965594",
+      "INSTAGRAM": "sevenrelzz"
+    },
+    {
+      "NO": 26,
+      "NAMA": "MUHAMMAD RIZQI MAULANA",
+      "AGAMA": "ISLAM",
+      "TTL": "15/04/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "3066554523",
+      "INSTAGRAM": "maulanarizqi_26"
+    },
+    {
+      "NO": 27,
+      "NAMA": "NENDEN DARA CAHYANI",
+      "AGAMA": "ISLAM",
+      "TTL": "24/12/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0065322096",
+      "INSTAGRAM": "radaraa._03",
+      "QUOTES": "Umur itu hanya angka tapi pemikiran manusia itu tidak sejalan dengan angka umurnya"
+    },
+    {
+      "NO": 28,
+      "NAMA": "NI PUTU LORA DEAS SUBRATHA",
+      "AGAMA": "HINDU",
+      "TTL": "19/08/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0067578269",
+      "INSTAGRAM": "raaddeas",
+      "QUOTES": "90% of your worries are just an imaginary swamp that you created"
+    },
+    {
+      "NO": 29,
+      "NAMA": "NURIFANSYAH",
+      "AGAMA": "ISLAM",
+      "TTL": "20/09/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0069945300",
+      "INSTAGRAM": "vnnx.vn",
+      "QUOTES": "jangan lihat siapa yang menyampaikan tapi dengarkan apa yang disampaikan."
+    },
+    {
+      "NO": 30,
+      "NAMA": "PUTU DEVA SANJAYA PUTRA WISWA",
+      "AGAMA": "HINDU",
+      "TTL": "15/04/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0067214447",
+      "INSTAGRAM": "its.me_putudeva"
+    },
+    {
+      "NO": 31,
+      "NAMA": "RAFI AHMAD",
+      "AGAMA": "ISLAM",
+      "TTL": "16/07/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0062035219"
+    },
+    {
+      "NO": 32,
+      "NAMA": "SANDIA MELANI",
+      "AGAMA": "ISLAM",
+      "TTL": "29/05/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0067748498",
+      "INSTAGRAM": "sndiamlni_"
+    },
+    {
+      "NO": 33,
+      "NAMA": "SEPRILYA CALLYSTA RINCE TUNGGA",
+      "AGAMA": "KRISTEN",
+      "TTL": "11/04/2007",
+      "GENDER": "Perempuan",
+      "NISN": "0078592415",
+      "INSTAGRAM": "_clystaaa",
+      "QUOTES": "Great Things Begin on the Inside"
+    },
+    {
+      "NO": 34,
+      "NAMA": "SRI RAHMAWATI",
+      "AGAMA": "ISLAM",
+      "TTL": "15/10/2006",
+      "GENDER": "Perempuan",
+      "NISN": "0064650111"
+    },
+    {
+      "NO": 35,
+      "NAMA": "VIRLYA ZULIANI",
+      "AGAMA": "ISLAM",
+      "TTL": "08/01/2007",
+      "GENDER": "Perempuan",
+      "NISN": "0074937886",
+      "INSTAGRAM": "vlyazliani_",
+      "QUOTES": "bentuk mencintai diri sendiri adalah dengan berani meninggalkan orang yang mengecewakanmu. don't be afraid, this is for your own good."
+    },
+    {
+      "NO": 36,
+      "NAMA": "YAZKA TAURIHAN MAUDUDI",
+      "AGAMA": "ISLAM",
+      "TTL": "16/12/2006",
+      "GENDER": "Laki-laki",
+      "NISN": "0061273775",
+      "INSTAGRAM": "lomboky16"
+    }
+  ] 
+}
+

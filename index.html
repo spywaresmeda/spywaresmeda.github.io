@@ -6,89 +6,72 @@
     <title>homepage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <div class="container-fluid"> 
         <div class="content"> 
-            <h1>XI RPL</h1>
-            <div class="bg-secondary">
-                <h3>smedarpl@gmail.com</h3></div>
-            <div class="social">
-                <img src="../img/icon/instagram.svg" alt="">
-                <h2>Spyware Class</h2>
-                <img src="../img/icon/angle-right.svg" alt="">
-            </div>
-            <h2>Gallery Class :</h2>
-            <section id="slider">
-                <input type="radio" name="slider" id="s1">
-                <input type="radio" name="slider" id="s2">
-                <input type="radio" name="slider" id="s3" checked>
-                <input type="radio" name="slider" id="s4">
-                <input type="radio" name="slider" id="s5">
-                <label for="s1" id="slide1"></label>
-                <label for="s2" id="slide2"></label>
-                <label for="s3" id="slide3"></label>
-                <label for="s4" id="slide4"></label>
-                <label for="s5" id="slide5"></label>
+            <section class="hero">  
+                </section>
+<section class="slider"> 
+                <div id="slider">
+                    <input type="radio" name="slider" id="s1">
+                    <input type="radio" name="slider" id="s2">
+                    <input type="radio" name="slider" id="s3" checked>
+                    <input type="radio" name="slider" id="s4">
+                    <input type="radio" name="slider" id="s5">
+                    <label for="s1" id="slide1"></label>
+                    <label for="s2" id="slide2"></label>
+                    <label for="s3" id="slide3"></label>
+                    <label for="s4" id="slide4"></label>
+                    <label for="s5" id="slide5"></label>
+                </div> 
             </section> 
-            <section class="member">
-                <div class="member-card">
-                    <h1>MEMBER CLASS</h1>
-        
-                    <div class="all-card">
-                        <div class="card">
-                            <img src="../img/3x4/3x4-2.jpg" alt="">
-                            <h2>Aditya</h2>
-                        </div>
-                        <div class="card">
-                            <img src="../img/3x4/3x4-2.jpg" alt="">
-                            <h2>Aditya</h2>
-                        </div>
-                        <div class="card">
-                            <img src="../img/3x4/3x4-2.jpg" alt="">
-                            <h2>Aditya</h2>
-                        </div>
-                        <div class="card">
-                            <img src="../img/3x4/3x4-2.jpg" alt="">
-                            <h2>Aditya</h2>
-                        </div>
-                        <div class="card">
-                            <img src="../img/3x4/3x4-2.jpg" alt="">
-                            <h2>Aditya</h2>
-                        </div>
+            
+            <!-- <section class="member-card"> 
+                <h1>MEMBER CLASS</h1> 
+                <div class="all-card">
+                    <div class="card">
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h2>Aditya</h2>
+                    </div>
+                    <div class="card">
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h2>Aditya</h2>
+                    </div>
+                    <div class="card">
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h2>Aditya</h2>
+                    </div>
+                    <div class="card">
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h2>Aditya</h2>
+                    </div>
+                    <div class="card">
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h2>Aditya</h2>
                     </div>
                 </div>
-            </section>
+            </section> -->
         
         </div> 
     </div> 
     
 
-    <script>
-        const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry)
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
-        }
+    <!-- <script>
+ document.addEventListener('DOMContentLoaded', function () { 
+    const introImage = document.getElementById('intro');
+
+    // Menunjukkan gambar setelah konten dimuat
+    introImage.style.opacity = '1';
+
+    // Menghilangkan gambar saat diklik
+    introImage.addEventListener('click', function () {
+        introImage.style.opacity = '0';
     });
 });
-
-const hiddenElement = document.querySelectorAll('.hidden');
-hiddenElement.forEach((el) => observer.observe(el));
-
-const sliderScroll = document.getElementsByClassName("all-card");
-const mCardImg = document.createElement("img");
-const mCardTitle = document.createElement("h2");
-
-
-
-
-    </script>
-
+    </script> -->
+<link rel="stylesheet" href="script.js">
 </body>
 </html>
