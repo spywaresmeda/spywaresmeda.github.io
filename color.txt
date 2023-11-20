@@ -1,0 +1,6 @@
+Color
+
+heading-gradient: to bottom, 3C705A, 3C705A,0 
+font: 9C9C9C
+quote-container: 373737,52
+bg-gradient: to top, 353135,80,  313130,31
