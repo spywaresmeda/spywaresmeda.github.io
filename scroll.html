@@ -12,13 +12,23 @@
         }
 
         .scrolling-content {
-            width: fit-content; /* Tambahkan ini untuk memastikan kontennya tidak wrap ke baris baru */
+            width: fit-content;
         }
 
         .scrolling-row {
             display: flex;
-            animation: scrollRight 4s linear infinite;
+            animation: scrollRight 10s linear infinite;
         }
+
+        .scrolling-row.kiri {
+            animation: scrollLeft 10s linear infinite;
+        }
+
+        .scrolling-row:hover {
+            animation-play-state: paused;
+        }
+
+
 
         @keyframes scrollRight {
             0% {
@@ -26,7 +36,17 @@
             }
 
             100% {
-                transform: translateX(calc(-100%)); /* Jumlah gambar dikali panjang satu gambar */
+                transform: translateX(calc(-50%));
+            }
+        }
+
+        @keyframes scrollLeft {
+            0% {
+                transform: translateX(calc(-50%));
+            }
+
+            100% {
+                transform: translateX(0%);
             }
         }
 
@@ -35,29 +55,160 @@
             height: 100px;
             margin: 10px;
         }
+
+
+        .dumps-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 1em;
+            padding: 1.5em 3vmax;
+            width: auto;
+            height: auto;
+            background-color: #373737;
+            border-radius: 15px;
+            margin: 0 7vmax;
+            box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.325);
+        }
+
+        .scrolling-container {
+            display: flex-e;
+            overflow: hidden;
+            width: 50%;
+            margin: 0 50%;
+        }
     </style>
 </head>
 
 <body>
-    <div class="scrolling-container">
-        <div class="scrolling-content">
-            <div class="scrolling-row">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <img src="img//3x4/3x4-2.jpg" class="image">
-                <!-- Tambahkan gambar lainnya di sini -->
+    <div class="dumps-container">
+        <div class="scrolling-container">
+            <div class="scrolling-content">
+                <div class="scrolling-row">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <img src="img//3x4/3x4-2.jpg" class="image">
+                    <!-- Tambahkan gambar lainnya di sini -->
+                </div>
+                <div class="scrolling-content">
+                    <div class="scrolling-row kiri">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <!-- Tambahkan gambar lainnya di sini -->
+                    </div>
+                </div>
+                <div class="scrolling-content">
+                    <div class="scrolling-row">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <!-- Tambahkan gambar lainnya di sini -->
+                    </div>
+                </div>
+                <div class="scrolling-content">
+                    <div class="scrolling-row kiri">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <img src="img//3x4/3x4-2.jpg" class="image">
+                        <!-- Tambahkan gambar lainnya di sini -->
+                    </div>
+                </div>
+
             </div>
         </div>
+
     </div>
+
+
 </body>
 
 </html>
