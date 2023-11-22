@@ -237,6 +237,47 @@ body {
     background-image: url(img/gallery-class/image-5.jpg);
 }
 
+
+
+.about-us {
+    margin-top: 20px;
+    padding   : 10px;
+}
+
+.about-us-content {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.about-us-text {
+    color: white;
+    flex : 1;
+}
+.about-us-text p {
+
+    font-size: 20px;
+    width: 100%;
+    padding-left: 35px;
+    color: white;
+    flex : 1;
+}
+
+.about-us-text h2 {
+    font-size    : 30px;
+    margin-bottom: 10px;
+}
+
+.about-us-image img {
+    width        : 80%;
+    max-width    : 600px;
+    /* Set a max-width to maintain responsiveness */
+    height       : auto;
+    border-radius: 8px;
+    /* Optional  : add a border-radius for rounded corners */
+}
+
+
 /* scroll-card */
 
 .scroll-card {
@@ -264,6 +305,7 @@ body {
     border-radius: 10px;
     box-shadow   : 8px 8px 10px rgba(0, 0, 0, 0.5);
     transition   : transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -339,9 +381,9 @@ body {
 }
 
 .close {
-    color: white;
-    top: 0px;
-    right: -5px;
+    color    : white;
+    top      : 0px;
+    right    : -5px;
     font-size: 28px;
     cursor   : pointer;
 }
@@ -384,7 +426,8 @@ body {
 
 /* quote */
 .quote {
-    position: relative;
+    padding-top: 80px;
+    position   : relative;
 }
 
 .quote-container {
@@ -402,8 +445,9 @@ body {
 }
 
 .quote-container h1 {
-    border-bottom: 2px solid #fff;
-    line-height  : 1.8em;
+    border-bottom : 2px solid #fff;
+    line-height   : 1.8em;
+    padding-bottom: 20px;
 }
 
 .quote-container p {
