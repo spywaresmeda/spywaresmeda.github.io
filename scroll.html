@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .scrolling-container {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .scrolling-content {
+            width: fit-content; /* Tambahkan ini untuk memastikan kontennya tidak wrap ke baris baru */
+        }
+
+        .scrolling-row {
+            display: flex;
+            animation: scrollRight 4s linear infinite;
+        }
+
+        @keyframes scrollRight {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(calc(-100%)); /* Jumlah gambar dikali panjang satu gambar */
+            }
+        }
+
+        .image {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scrolling-container">
+        <div class="scrolling-content">
+            <div class="scrolling-row">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <img src="img//3x4/3x4-2.jpg" class="image">
+                <!-- Tambahkan gambar lainnya di sini -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
