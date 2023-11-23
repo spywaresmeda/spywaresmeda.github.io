@@ -504,40 +504,51 @@ body {
 .marquee-container{
     width: 100%;
     background-color: #454444d5;
-    
-}
-
-.scrolling-container p {
-    color: white;
 }
 
 .image {
     width : 100px;
     height: 100px;
-    margin: 10px;
+    padding: 10px;
 }
 
+.image:hover {
+    background-color:rgba(255, 255, 255, 0.3);
+}
 
 .dumps-container {
     display         : flex;
-    flex-direction  : column;
-    justify-content : space-around;
-    gap             : 1em;
-    padding         : 1.5em 3vmax;
+    justify-content: space-between;
+    padding         : 1.5em 1.5em;
     /* width           : auto; */
     /* height          : auto; */
     background-color: #37373784;
     border-radius   : 15px;
     margin          : 0 7vmax;
-    box-shadow      : 8px 8px 10px rgba(0, 0, 0, 0.325);
+    
 }
 
-.scrolling-container {
+.dumps-container h1 {
+    font-size: 50px;
+    margin: auto;
+}
+
+.all-marque {
+    width: 50%;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
     overflow: hidden;
-    width   : 50%;
-    margin: 0 50%;
 }
 
+.all-marque:hover {
+    box-shadow      : 0 0 30px rgba(250, 255, 250, 0.225);
+}
+
+.all-marque marquee {
+    background-color: #454444d5;
+}
 
 .dumps-section {
     padding-top: 100px;
