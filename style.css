@@ -254,13 +254,14 @@ body {
     color: white;
     flex : 1;
 }
+
 .about-us-text p {
 
-    font-size: 20px;
-    width: 100%;
+    font-size   : 20px;
+    width       : 100%;
     padding-left: 35px;
-    color: white;
-    flex : 1;
+    color       : white;
+    flex        : 1;
 }
 
 .about-us-text h2 {
@@ -305,7 +306,7 @@ body {
     border-radius: 10px;
     box-shadow   : 8px 8px 10px rgba(0, 0, 0, 0.5);
     transition   : transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
-    cursor: pointer;
+    cursor       : pointer;
 }
 
 .card:hover {
@@ -480,53 +481,38 @@ body {
 
 /* scrolling  */
 
-.scrolling-container {
-    display: flex;
+/* .scrolling-container {
+    display : flex;
     overflow: hidden;
-    width: 100%;
-}
+    width   : 100%;
+} */
 
 .scrolling-content {
     width: fit-content;
 }
 
 .scrolling-row {
-    display: flex;
-    animation: scrollRight 10s linear infinite;
+    display  : flex;
+    /* animation: scrollRight 10s linear infinite; */
 }
-
 .scrolling-row.kiri {
-    animation: scrollLeft 10s linear infinite;
+    display  : flex;
+    flex-direction: row-reverse;
+    /* animation: scrollLeft 10s linear infinite; */
 }
 
-.scrolling-row:hover {
-    animation-play-state: paused;
+.marquee-container{
+    width: 100%;
+    background-color: #454444d5;
+    
 }
 
-
-
-@keyframes scrollRight {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(calc(-50%));
-    }
-}
-
-@keyframes scrollLeft {
-    0% {
-        transform: translateX(calc(-50%));
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
+.scrolling-container p {
+    color: white;
 }
 
 .image {
-    width: 100px;
+    width : 100px;
     height: 100px;
     margin: 10px;
 }
@@ -538,8 +524,8 @@ body {
     justify-content : space-around;
     gap             : 1em;
     padding         : 1.5em 3vmax;
-    width           : auto;
-    height          : auto;
+    /* width           : auto; */
+    /* height          : auto; */
     background-color: #37373784;
     border-radius   : 15px;
     margin          : 0 7vmax;
@@ -547,9 +533,8 @@ body {
 }
 
 .scrolling-container {
-    display: flex-e;
     overflow: hidden;
-    width: 50%;
+    width   : 50%;
     margin: 0 50%;
 }
 
@@ -557,6 +542,28 @@ body {
 .dumps-section {
     padding-top: 100px;
 }
+
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 
 
 @media screen and (max-width: 758px) {
