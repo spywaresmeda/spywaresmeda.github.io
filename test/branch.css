@@ -1,0 +1,95 @@
+.branch {
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    width           : auto;
+    background-color: blue;
+    padding         : 0 7vmax;
+}
+
+.branch-container {
+    position: relative;
+    width   : 100%;
+    height  : 300px;
+}
+
+.branch-wali,
+.branch-wakil,
+.branch-sekertaris,
+.branch-ketua,
+.branch-bendahara {
+    background-color: red;
+    position        : absolute;
+    translate       : 0 -50%;
+    z-index         : 10;
+}
+
+.branch-wali,
+.garis-wali {
+    top : 5%;
+    left: 0;
+}
+
+.branch-wakil,
+.garis-wakil {
+    top : 45%;
+    left: 3%;
+}
+
+.branch-sekertaris,
+.garis-sekertaris {
+    top : 80%;
+    left: 2%;
+}
+
+.branch-ketua,
+.garis-ketua {
+    right: 2%;
+    top  : 30%;
+}
+
+.branch-bendahara,
+.garis-bendahara {
+    right: 0;
+    top  : 65%;
+}
+
+.garis-main,
+.garis-wali,
+.garis-wakil,
+.garis-sekertaris,
+.garis-ketua,
+.garis-bendahara {
+    position        : absolute;
+    height          : 3px;
+    background-color: green;
+}
+
+.garis-main {
+    height: 80%;
+    width : 3px;
+    left  : 50%;
+    top   : 5%;
+}
+
+.garis-wali {
+    width: 50%;
+    left : 0;
+    top  : 5%;
+}
+
+.garis-wakil {
+    width: 47%;
+}
+
+.garis-sekertaris {
+    width: 48%;
+}
+
+.garis-ketua {
+    width: 48%;
+}
+
+.garis-bendahara {
+    width: 50%;
+}
