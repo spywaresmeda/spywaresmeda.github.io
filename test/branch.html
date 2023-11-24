@@ -97,22 +97,32 @@
             </section>
 
             <section class="branch">
-                <h1>Structure Class</h1>
+                <h1>Structure Class!</h1>
                 <div class="branch-container">
                     <div class="branch-wali">
-                        <h5>Wali Kelas</h5>
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h3>Wali Kelas</h3>
+                        <h5>Hj. Husen S.pd</h5>
                     </div>
                     <div class="branch-wakil">
-                        <h5>Wakil Ketua</h5>
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h3>Wakil Ketua</h3>
+                        <h5>M. Farel Amrulloh</h5>
                     </div>
                     <div class="branch-sekertaris">
-                        <h5>Sekertaris</h5>
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h3>Sekertaris</h3>
+                        <h5>Cahaya Cinta Ilahi</h5>
                     </div>
                     <div class="branch-ketua">
-                        <h5>Ketua Kelas</h5>
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h3>Ketua Kelas</h3>
+                        <h5>Nurifansyah</h5>
                     </div>
                     <div class="branch-bendahara">
-                        <h5>Bendahara</h5>
+                        <img src="../img/3x4/3x4-2.jpg" alt="">
+                        <h3>Bendahara</h3>
+                        <h5>Virly Zuliani</h5>
                     </div>
                     <span class="garis-main"></span>
                     <span class="garis-wali"></span>
@@ -121,7 +131,7 @@
                     <span class="garis-ketua"></span>
                     <span class="garis-bendahara"></span>
                 </div>
-                <h2>Class Branch</h2>
+                <h1>Class Branch</h1>
             </section>
 
             <!-- dumps section  -->
@@ -225,7 +235,7 @@
 
 
         // mengambil data dari json dan melakukan createElement scroll card
-        fetch('member.json')
+        fetch('../member.json')
             .then(response => response.json())
             .then(data => {
                 const members = data.siswa;

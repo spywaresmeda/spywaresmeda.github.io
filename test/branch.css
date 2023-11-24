@@ -1,16 +1,18 @@
 .branch {
-    display         : flex;
-    flex-direction  : column;
-    align-items     : center;
-    width           : auto;
-    background-color: blue;
-    padding         : 0 7vmax;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    gap           : 2vmax;
+    width         : auto;
+    padding       : 0 7vmax;
+    height        : 50vmax;
+    margin-top    : 10vh;
 }
 
 .branch-container {
     position: relative;
     width   : 100%;
-    height  : 300px;
+    height  : 100%
 }
 
 .branch-wali,
@@ -22,11 +24,43 @@
     position        : absolute;
     translate       : 0 -50%;
     z-index         : 10;
+    height          : 8vmax;
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    box-sizing      : border-box;
+    padding         : 1vmax 1.2vmax 1vmax 0.7vmax;
+    column-gap      : 0.5vmax;
+    row-gap         : 10px;
+    width           : auto;
+    justify-content : center;
+    border-radius   : 10px;
+    background-color: #4D4D4D;
+}
+
+.branch-wali {
+    background-color: #325F4C;
+}
+
+.branch img {
+    height       : 100%;
+    object-fit   : scale-down;
+    box-shadow   : 2px 5px 20px 0;
+    border-radius: 10px;
+}
+
+.branch-container h3 {
+    font-size: 1.6vmax;
+}
+
+.branch-container h5 {
+    font-size: 1.4vmax;
+    color    : white;
 }
 
 .branch-wali,
 .garis-wali {
-    top : 5%;
+    top : 10%;
     left: 0;
 }
 
@@ -60,22 +94,21 @@
 .garis-sekertaris,
 .garis-ketua,
 .garis-bendahara {
-    position        : absolute;
-    height          : 3px;
-    background-color: green;
+    position  : absolute;
+    height    : 3px;
+    background: linear-gradient(#99865B, #DFD6AC, #827962);
 }
 
 .garis-main {
     height: 80%;
     width : 3px;
     left  : 50%;
-    top   : 5%;
+    top   : 10%;
 }
 
 .garis-wali {
     width: 50%;
     left : 0;
-    top  : 5%;
 }
 
 .garis-wakil {
@@ -92,4 +125,28 @@
 
 .garis-bendahara {
     width: 50%;
+}
+
+
+@media screen and (max-width: 758px) {
+    .branch {
+        padding: 0 3vmax;
+    }
+
+    .branch-container h3 {
+        font-size: 1vmax;
+    }
+
+    .branch-container h5 {
+        font-size: 0.8vmax;
+    }
+
+    .branch-wali,
+    .branch-wakil,
+    .branch-sekertaris,
+    .branch-ketua,
+    .branch-bendahara,
+    .branch img {
+        border-radius: 7px;
+    }
 }

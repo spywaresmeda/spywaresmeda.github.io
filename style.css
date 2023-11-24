@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(16px, 1.4vmax, 22px);
+    font-size: clamp(14px, 1.4vmax, 22px);
     color    : #fcfcfc;
 }
 
@@ -286,6 +286,7 @@ body {
     flex-direction: column;
     align-items   : center;
     padding       : 1em 4vmax 2.5em;
+    padding-bottom: 0;
     margin        : 1vh 0;
     position      : relative;
 }
@@ -427,7 +428,7 @@ body {
 
 /* quote */
 .quote {
-    padding-top: 80px;
+    padding-top: 10vh;
     position   : relative;
 }
 
@@ -492,58 +493,59 @@ body {
 }
 
 .scrolling-row {
-    display  : flex;
+    display     : flex;
     /* animation: scrollRight 10s linear infinite; */
 }
+
 .scrolling-row.kiri {
-    display  : flex;
+    display       : flex;
     flex-direction: row-reverse;
-    /* animation: scrollLeft 10s linear infinite; */
+    /* animation  : scrollLeft 10s linear infinite; */
 }
 
-.marquee-container{
-    width: 100%;
+.marquee-container {
+    width           : 100%;
     background-color: #454444d5;
 }
 
 .image {
-    width : 100px;
-    height: 100px;
+    width  : 100px;
+    height : 100px;
     padding: 10px;
 }
 
 .image:hover {
-    background-color:rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .dumps-container {
-    display         : flex;
-    justify-content: space-between;
-    padding         : 1.5em 1.5em;
+    display            : flex;
+    justify-content    : space-between;
+    padding            : 1.5em 1.5em;
     /* width           : auto; */
     /* height          : auto; */
-    background-color: #37373784;
-    border-radius   : 15px;
-    margin          : 0 7vmax;
-    
+    background-color   : #37373784;
+    border-radius      : 15px;
+    margin             : 0 7vmax;
+
 }
 
 .dumps-container h1 {
     font-size: 50px;
-    margin: auto;
+    margin   : auto;
 }
 
 .all-marque {
-    width: 50%;
-    height: 485px;
-    display: flex;
+    width         : 50%;
+    height        : 485px;
+    display       : flex;
     flex-direction: column;
-    border-radius: 10px;
-    overflow: hidden;
+    border-radius : 10px;
+    overflow      : hidden;
 }
 
 .all-marque:hover {
-    box-shadow      : 0 0 30px rgba(250, 255, 250, 0.225);
+    box-shadow: 0 0 30px rgba(250, 255, 250, 0.225);
 }
 
 .all-marque marquee {
