@@ -527,7 +527,7 @@ body {
     background-color   : #37373784;
     border-radius      : 15px;
     margin             : 0 7vmax;
-
+    flex-direction: row;
 }
 
 .dumps-container h1 {
@@ -621,5 +621,14 @@ body {
 
     .quote img {
         width: 25px;
+    }
+
+    /* dumps */
+    .dumps-container {
+        flex-direction: column;
+    }
+
+    .all-marque {
+        width: 100%;
     }
 }
