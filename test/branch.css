@@ -26,16 +26,19 @@
     z-index         : 10;
     height          : 8vmax;
     display         : flex;
-    flex-direction  : column;
-    flex-wrap       : wrap;
-    box-sizing      : border-box;
-    padding         : 1vmax 1.3vmax 1vmax 0.7vmax;
-    column-gap      : 0.8vmax;
-    row-gap         : 10px;
-    width           : auto;
     justify-content : center;
+    column-gap      : 10px;
+    box-sizing      : border-box;
+    padding         : 1vmax 1.2vmax;
+    width           : auto;
     border-radius   : 10px;
     background-color: #4D4D4D;
+}
+
+.branch-text {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
 }
 
 .branch-wali {
@@ -97,13 +100,15 @@
     position  : absolute;
     height    : 5px;
     background: linear-gradient(#99865B, #DFD6AC, #827962);
+    z-index   : 5;
 }
 
 .garis-main {
-    height: 80%;
-    width : 5px;
-    left  : 50%;
-    top   : 10%;
+    height : 80%;
+    width  : 5px;
+    left   : 50%;
+    top    : 10%;
+    z-index: 6;
 }
 
 .garis-wali {
